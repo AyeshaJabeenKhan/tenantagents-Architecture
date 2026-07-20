@@ -4,7 +4,7 @@
 
 > Most RAG portfolio projects are a chatbot over one PDF for one user. TenantAgents is built closer to how real SaaS products work: many companies on one platform, each one completely walled off from the others, with an AI agent that doesn't just talk — it does things.
 
-🔗 **Live demo:** [tenantagents.vercel.app](https://tenantagents.vercel.app) · **API:** [tenantagents.onrender.com](https://tenantagents.onrender.com)
+🔗 **Live demo:** [tenantagents.vercel.app](https://tenantagents.vercel.app) 
 
 **Demo logins** (already set up, just sign in and explore):
 | Company | Email | Password |
@@ -14,7 +14,16 @@
 
 *(Backend is on a free-tier host — the first request after it's been idle can take ~20-30 seconds to wake up.)*
 
+Note: The source code for TenantAgents is held in a private repository to protect proprietary multi-tenant isolation logic. This repository serves as a public breakdown of the system architecture, database schema, and case study.
+
 ![Sign-in page](screenshots/sign-in.png)
+
+## Table of Contents
+- [What problem this solves](#what-problem-this-solves)
+- [How it works](#what-it-actually-does)
+- [Tech Stack](#tech-stack)
+- [Running it locally](#running-it-locally)
+- [Real-world Engineering Challenges](#the-honest-unpolished-part)
 
 ## What problem this solves
 
@@ -37,7 +46,7 @@ TenantAgents is my answer to that problem — plus taking it one step further th
 
 ![Knowledge Base](screenshots/knowledge-base.png)
 
-**3. Ask the Chat Assistant anything about your documents.** It answers using *only* your company's documents, and shows exactly which sources it pulled from and how confident it was in each one.
+*3. Ask the Chat Assistant anything about your documents.** It answers using *only* your company's documents, and shows exactly which sources it pulled from and how confident it was in each one.
 
 ![Chat Assistant with source citations](screenshots/chat.png)
 
