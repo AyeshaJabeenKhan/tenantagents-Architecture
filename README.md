@@ -4,7 +4,8 @@
 
 > Most RAG portfolio projects are a chatbot over one PDF for one user. TenantAgents is built closer to how real SaaS products work: many companies on one platform, each one completely walled off from the others, with an AI agent that doesn't just talk — it does things.
 
-🔗 **Live demo:** [tenantagents.vercel.app](https://tenantagents.vercel.app) 
+🔗 **Live demo:** [tenantagents.vercel.app](https://tenantagents.vercel.app) *(Password protected — requires access code sent via Gmail. Contact me to get the code.)*  
+📺 **Video Demo:** [Watch on YouTube](https://youtu.be/IRREtRf6VMs)
 
 **Demo logins** (already set up, just sign in and explore):
 | Company | Email | Password |
