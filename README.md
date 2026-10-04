@@ -140,7 +140,7 @@ Getting a demo running on your own laptop is maybe 40% of actually shipping some
 
 None of these were genuinely hard problems. They're just the normal texture of building something real, and I'd rather show that than pretend it worked on the first try.
 
-## What I'd build differently at scale (and can speak to in an interview)
+## What I'd build differently at scale 
 
 - Document processing is currently synchronous (upload → chunk → embed → ready, in one request). At scale, this would move to a background job queue so large files don't block the request.
 - Chat messages are logged individually rather than grouped into named conversation threads yet.
